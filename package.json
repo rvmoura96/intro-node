@@ -1,0 +1,23 @@
+{
+  "name": "casadocodigo",
+  "version": "1.0.0",
+  "description": "site da casa do codigo",
+  "main": "web-products.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rvmoura96/intro-node.git"
+  },
+  "author": "Renan Moura",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rvmoura96/intro-node/issues"
+  },
+  "homepage": "https://github.com/rvmoura96/intro-node#readme",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.3"
+  }
+}
