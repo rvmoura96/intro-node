@@ -9,18 +9,21 @@
 <body>
     <table>
         <tr>
-            <th>id</th>
-            <th>Nome</th>            
+            <th>ID</th>
+            <th>Titulo</th>
+            <th>Descrição</th>
+            <th>Preço</th>
         </tr>
+        <%list.forEach(function(item){%>
         <tr>
-            <td>1</td>
-            <td>Livro Node.js</td>
+            <td><%=item.id%></td>
+            <td><%=item.title%></td>
+            <td><%=item.description%></td>
+            <td><%=item.price%></td>
         </tr>
+        <%})%>
         <tr>
-            <td>2</td>
-            <td>Livro Node.js</td>
         </tr>
-        <a href="/teste">aa</a>
     </table>
 </body>
 </html>
